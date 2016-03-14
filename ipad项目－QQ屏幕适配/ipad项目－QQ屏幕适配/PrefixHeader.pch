@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  ipad项目－QQ屏幕适配
+//
+//  Created by 申颖 on 16/1/2.
+//  Copyright © 2016年 Ying. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//Pch在xcode6取消了默认显示. 防止的是程序员滥用
+//如果预编译的指令太多, 编译时会非常慢
+//预编译一旦发生任何一点更改, 就会重新编译
+
+#import "UIView+SYCategory.h"
+#import "SYConst.h"
+#import "Masonry.h"
+
+
+#endif /* PrefixHeader_pch */
